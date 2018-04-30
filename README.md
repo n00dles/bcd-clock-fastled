@@ -5,4 +5,4 @@ Led Layout
 
 leds are numbered 0-19 and should be arranged as follows 
 
-![Led Layout](https://github.com/n00dles/bcd-clock-fastled/edit/master/images/layout.jpg)
+![Led Layout](https://github.com/n00dles/bcd-clock-fastled/blob/master/images/layout.jpg)
