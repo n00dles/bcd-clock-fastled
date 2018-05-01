@@ -130,7 +130,7 @@ void setup() {
   
   WiFiManager wifiManager;
   wifiManager.setAPCallback(configModeCallback);
-  wifiManager.autoConnect("AlarmClock", "password");
+  wifiManager.autoConnect("BCDClock", "password");
 
   Serial.println("");
   Serial.print("Connected to ");
