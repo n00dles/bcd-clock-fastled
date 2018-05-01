@@ -170,10 +170,6 @@ void displayTime() {
   timeHour = (epoch  % 86400L) / 3600;
   timeMinutes = (epoch % 3600) / 60;
   timeSeconds = (epoch % 60);
-
-  Serial.print(timeHour);
-  Serial.print(timeMinutes);
-  Serial.print(timeSeconds);
   
   if (twenty4hour == true) {
     if (timeHour >=13 && timeHour<=24){
